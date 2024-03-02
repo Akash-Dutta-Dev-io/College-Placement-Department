@@ -1,0 +1,30 @@
+.feed{
+    /* background-color: black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 10px;
+    margin: 0 0 0 0;
+}
+
+.card{
+    border: 1px solid red;
+    width: 100%;
+    height: 100px;
+    margin: 10% 0;
+    margin-bottom: 3%;
+    padding: 35px;
+}
+
+.card h4{
+    color: black;
+}
+
+@media only screen and (max-width:500px){
+    .feed{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+

@@ -33,7 +33,7 @@ const Login = () => {
                                 <input type="password" placeholder='Enter Password' />
                             </div> 
                             <a href="#" className='fpassword'>Forgot Password?</a> <br />
-                            <button>Login</button> <br />
+                            <Link to='feed'><button>Login</button></Link> <br />
                             <p>Don't have a account <Link to='register' className='signin'>Register</Link></p>
                         </div>
                     </form>
