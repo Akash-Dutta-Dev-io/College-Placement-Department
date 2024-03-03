@@ -12,7 +12,7 @@ const Login = () => {
             <main>
             <div className="container">
                 <div className="left">
-                    <div className="imagecontainer">
+                    <div className="login-imagecontainer">
                         <div className="overlay">
                             <h2>Welcome Back</h2>
                             <p>Lorem ipsum dolor sit amet,Lorem, ipsum dolor sit <br /> amet consectetur adipisicing elit. Quae, id!</p>
@@ -23,7 +23,7 @@ const Login = () => {
                 <div className="form">
                     <form action="#">
                         <h2>Login Here</h2>
-                        <div className="formstyle">
+                        <div className="login-formstyle">
                             <div className="username">
                                 <label htmlFor="username">Username</label>
                                 <input type="text" placeholder='Enter your username here' />
